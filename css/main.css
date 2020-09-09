@@ -339,6 +339,9 @@ Media Queries
 ==============
 */
 @media only screen and (max-width: 360px) {
+  main {
+    height: 110vh;
+  }
   main .cta {
     font-size: 0.9rem;
   }
@@ -356,13 +359,7 @@ Media Queries
   }
 }
 
-@media only screen and (min-width: 800px) {
-  main {
-    height: 80vh;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
+@media only screen and (max-width: 1440px) and (min-width: 812px) {
   main {
     height: 100vh;
     width: 100vw;
