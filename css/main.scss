@@ -285,9 +285,21 @@ Media Queries
     }
 }
 
+@media only screen and(min-height:812px){
+    main{
+        height: 100vh;
+    }
+}
+
 @media only screen and(min-width:768px){
     main{
         height: 100vh;
+    }
+}
+
+@media only screen and(min-width:800px){
+    main{
+        height: 80vh;
     }
 }
 
